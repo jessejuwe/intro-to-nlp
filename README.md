@@ -22,7 +22,7 @@ ipywidgets==8.1.5
 ```
 
 ## Conda Environment
-Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this particular set of projects allows you to ensure you can use the correct packages without affecting any other packages you already have installed.
+Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this set of projects ensures you can use the correct packages without affecting any other packages you already have installed.
 
 ```
 conda create --name intro_to_nlp_env python=3.11
@@ -32,4 +32,4 @@ python -m spacy download en_core_web_sm
 pip install ipykernel jupyterlab notebook
 python -m ipykernel install --user --name=intro_to_nlp_env
 ```
-Then, when in the notebook, remember to check the kernel is set to "nlp_course_env".
+Then, when in the notebook, remember to check the kernel is set to "intro_to_nlp_env".
