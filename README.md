@@ -1,4 +1,4 @@
-# Introduction to NLP Course Notebooks
+# Introduction to NLP
 This repository contains Jupyter notebooks for hands-on Natural Language Processing projects.
 
 ## Installed Packages
